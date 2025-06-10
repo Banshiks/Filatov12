@@ -38,6 +38,25 @@
   
 *Приведите ответ в свободной форме.*  
 
+- Какие сетевые службы в ней разрешены?
+```
+nmap -sv -O 192.168.0.11
+```
+977 портов закрыты - 23 открыты
+
+**Службы** - ftp, ssh, telnet, smtp, domain, http, rpcbind, netbios-ssn, exec, login, tcpwrapped, java-rmi, bindshell, nfs, ftp, mysql, postgresql, vnc, X11, irc, ajp13, http
+
+![](image/1.png)
+  
+- Какие уязвимости были вами обнаружены? (список со ссылками: достаточно трёх уязвимостей)
+```
+https://www.exploit-db.com/exploits/17491
+https://www.exploit-db.com/exploits/6122
+https://www.exploit-db.com/exploits/30020
+https://www.exploit-db.com/exploits/27407
+https://www.exploit-db.com/exploits/31965
+```
+
 ### Задание 2
 
 Проведите сканирование Metasploitable в режимах SYN, FIN, Xmas, UDP.
