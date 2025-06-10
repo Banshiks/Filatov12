@@ -46,7 +46,7 @@ nmap -sv -O 192.168.0.11
 
 **Службы** - ftp, ssh, telnet, smtp, domain, http, rpcbind, netbios-ssn, exec, login, tcpwrapped, java-rmi, bindshell, nfs, ftp, mysql, postgresql, vnc, X11, irc, ajp13, http
 
-![](image/1.png)
+![]()
   
 - Какие уязвимости были вами обнаружены? (список со ссылками: достаточно трёх уязвимостей)
 ```
